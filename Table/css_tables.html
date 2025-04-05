@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tables</title>
+    <style>
+        table,tr,th,td{
+            border: 1px solid black;
+            text-align: center;
+            
+        }
+
+        table{
+            width: 80%;
+        }
+
+        tr:nth-child(odd){
+            background-color: aquamarine;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: red;
+        }
+        tr:nth-child(even){
+            background-color: gray;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">CSS Tables</h1>
+    <table cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>Actor</th>
+            <th>Director</th>
+        </tr>
+        <tr>
+            <td>Animal</td>
+            <td>Ranveer Kapur</td>
+            <td>Sandeep Reddy</td>
+        </tr>
+        <tr>
+            <td>singham</td>
+            <td>Ajay Devgan</td>
+            <td>Rohit Shetty</td>
+        </tr>
+        <tr>
+            <td>rayan</td>
+            <td>dhanush</td>
+            <td>dhanush</td>
+        </tr>
+    </table>
+</body>
+</html>
